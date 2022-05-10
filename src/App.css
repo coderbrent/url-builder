@@ -1,0 +1,21 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background: rgb(18, 7, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 7, 209, 1) 0%,
+    rgb(86, 86, 153) 55%,
+    rgba(4, 131, 198, 1) 100%
+  );
+}
+
+.App {
+  height: 100%;
+}
